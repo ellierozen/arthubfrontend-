@@ -1,3 +1,7 @@
+---
+layout: default
+title: Homepage 
+---
 <!DOCTYPE html>
 <html>
 <head>
