@@ -7,10 +7,13 @@ title: Homepage
 <html>
 <head>
 <style>
+    body {
+        background-color: #E7D8ED;
+    }
     .rectangle2 {
         background-color: #f3eef4;
         height: 56px;
-        width: 943px;
+        width: fill;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -50,9 +53,9 @@ title: Homepage
 </head>
 <body>
     <div id='rectangle2' class='rectangle2'>
-        <button class='button' id='artists'>Artists</button>
-        <button class='button' id='arthub'>ArtHub</button>
-        <button class='button' id='museums'>Museums</button>
+        <button class='button' id='artists' onclick="location.href='artists.md';">Artists</button>
+        <button class='button' id='arthub' onclick="location.href='homepage.md';">ArtHub</button>
+        <button class='button' id='museums' onclick="location.href='museums.md';">Museums</button>
     </div>
     <div id='findmuseumsnearyou' class='findmuseumsnearyou'>
         Find Museums Near You
