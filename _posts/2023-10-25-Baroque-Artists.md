@@ -3,8 +3,6 @@ toc: true
 comments: false
 layout: post
 title: Baroque Artists
-type: hacks
-courses: { compsci: {week: 7} }
 ---
 
 <html>
