@@ -73,6 +73,7 @@
                 <a href="cubismartists.html">Cubism Artists</a>
                 <a href="impressionistartists.html">Impressionist Artists</a>
                 <a href="moderinsmartists.html">Modernism Artists</a>
+                <a href="popartists.html">Pop Art Artists</a>
                 <!-- Add more artist links as needed -->
             </div>
         </div>
