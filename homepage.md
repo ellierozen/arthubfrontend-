@@ -70,6 +70,7 @@
             <button class='button artists' onclick="location.href='homepage.md';">Artists</button>
             <div class="dropdown-content">
                 <a href="baroqueartists.html">Baroque Artists </a>
+                <a href="cubismartists.html">Cubism Artists</a>
                 <a href="impressionistartists.html">Impressionist Artists</a>
                 <a href="moderinsmartists.html">Modernism Artists</a>
                 <!-- Add more artist links as needed -->
