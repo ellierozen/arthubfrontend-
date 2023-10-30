@@ -1,60 +1,79 @@
----
-layout: default
-title: Homepage
----
-
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-    body {
-        background-color: #E7D8ED;
-    }
-    .rectangle2 {
-        background-color: #f3eef4;
-        height: 56px;
-        width: fill;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .button {
-        color: #000000;
-        font-size: 30px;
-        font-family: Kaisei Tokumin;
-        line-height: auto;
-        border-style: hidden;
-        outline: none;
-        background: none;
-        border: none;
-        cursor: pointer;
-    }
-    .button:hover {
-        text-decoration: underline;
-    }
-    .arthub {
-        font-size: 36px;
-        width: auto;
-    }
-    .findmuseumsnearyou {
-        color: #000000;
-        text-align: center;
-        font-size: 40px;
-        font-family: Kaisei Tokumin;
-        line-height: auto;
-        border-style: hidden;
-        outline: none;
-        width: 608px;
-    }
-
-    /* Add additional CSS styling here for the entire page */
-
-</style>
+    <style>
+        body {
+            background-color: #E7D8ED;
+        }
+        .rectangle2 {
+            background-color: #f3eef4;
+            height: 56px;
+            width: fill;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .button {
+            color: #000000;
+            font-size: 30px;
+            font-family: Kaisei Tokumin;
+            line-height: auto;
+            border-style: hidden;
+            outline: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            text-decoration: underline;
+        }
+        .arthub {
+            font-size: 36px;
+            width: auto;
+        }
+        .findmuseumsnearyou {
+            color: #000000;
+            text-align: center;
+            font-size: 40px;
+            font-family: Kaisei Tokumin;
+            line-height: auto;
+            border-style: hidden;
+            outline: none;
+            width: 608px;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <div id='rectangle2' class='rectangle2'>
-        <button class='button' id='artists' onclick="location.href='artists.md';">Artists</button>
-        <button class='button' id='arthub' onclick="location.href='homepage.md';">ArtHub</button>
+        <div class="dropdown">
+            <button class='button' id='arthub' onclick="location.href='homepage.md';">ArtHub</button>
+            <div class="dropdown-content">
+                <a href="2023-10-15-Impressionist-Artists.md">Impressionist Artists</a>
+                <a href="artist2.md">Artist 2</a>
+                <!-- Add more artist links as needed -->
+            </div>
+        </div>
         <button class='button' id='museums' onclick="location.href='museums.md';">Museums</button>
     </div>
     <div id='findmuseumsnearyou' class='findmuseumsnearyou'>
