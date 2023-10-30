@@ -81,7 +81,7 @@
                 <!-- Add more artist links as needed -->
             </div>
         </div>
-        <button class='button arthub' onclick="location.href='homepage.md';">ArtHub</button>
+        <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>
         <button class='button' id='museums' onclick="location.href='museums.md';">Museums</button>
     </div>
     <div id='findmuseumsnearyou' class='findmuseumsnearyou'>
