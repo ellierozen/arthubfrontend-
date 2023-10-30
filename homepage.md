@@ -67,7 +67,6 @@
 <body>
     <div id='rectangle2' class='rectangle2'>
         <div class="dropdown">
-            <button class='button artists' onclick="location.href='homepage.md';">Artists</button>
             <div class="dropdown-content">
                 <a href="baroqueartists.html">Baroque Artists </a>
                 <a href="cubismartists.html">Cubism Artists</a>
@@ -77,7 +76,7 @@
                 <a href="postimpressionismartists.html">Post Impressionism Artists</a>
                 <a href="realismartists.html">Realism Artists</a>
                 <a href="renaissanceartists.html">Renaissance Artists</a>
-                <a href="renaissanceartists.html">Romanticism Artists</a>
+                <a href="romantartists.html">Romanticism Artists</a>
                 <!-- Add more artist links as needed -->
             </div>
         </div>
