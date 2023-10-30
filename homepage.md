@@ -67,6 +67,7 @@
 <body>
     <div id='rectangle2' class='rectangle2'>
         <div class="dropdown">
+            <button class='button artists' onclick="location.href='homepage.md';">Artists</button>
             <div class="dropdown-content">
                 <a href="baroqueartists.html">Baroque Artists </a>
                 <a href="cubismartists.html">Cubism Artists</a>
