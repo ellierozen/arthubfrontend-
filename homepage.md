@@ -72,7 +72,7 @@
                 <a href="baroqueartists.html">Baroque Artists </a>
                 <a href="cubismartists.html">Cubism Artists</a>
                 <a href="impressionistartists.html">Impressionist Artists</a>
-                <a href="moderninsmartists.html">Modernism Artists</a>
+                <a href="modernismartists.html">Modernism Artists</a>
                 <a href="popartists.html">Pop Art Artists</a>
                 <a href="postimpressionismartists.html">Post Impressionism Artists</a>
                 <a href="realismartists.html">Realism Artists</a>
