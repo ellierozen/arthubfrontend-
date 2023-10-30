@@ -45,7 +45,7 @@ title: Romanticism Artists
 <h2>Romanticism Artists</h2>
 
 <div class="card">
-  <img src="Goya.png" alt="Goya" style="width:100%">
+  <img src="images/Goya.png" alt="Goya" style="width:100%">
   <div class="container">
     <h4><b>Francisco Goya</b></h4> 
     <a href="#goya-heading" class="button">More Info</a>
@@ -54,7 +54,7 @@ title: Romanticism Artists
 </div>
 
 <div class="card">
-  <img src="Blake.png" alt="Blake" style="width:100%">
+  <img src="images/Blake.png" alt="Blake" style="width:100%">
   <div class="container">
     <h4><b>William Blake</b></h4> 
     <a href="#blake-heading" class="button">More Info</a>
@@ -63,7 +63,7 @@ title: Romanticism Artists
 </div>
 
 <div class="card">
-  <img src="Constable.png" alt="Constable" style="width:100%">
+  <img src="images/Constable.png" alt="Constable" style="width:100%">
   <div class="container">
     <h4><b>John Constable</b></h4> 
     <a href="#constable-heading" class="button">More Info</a>

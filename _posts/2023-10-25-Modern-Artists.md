@@ -46,7 +46,7 @@ title: Modern Artists
 <h2>Modern Artists</h2>
 
 <div class="card">
-  <img src="Nara.png" alt="Nara" style="width:100%">
+  <img src="images/Nara.png" alt="Nara" style="width:100%">
   <div class="container">
     <h4><b>Yoshitomo Nara</b></h4> 
     <a href="#nara-heading" class="button">More Info</a>
@@ -55,7 +55,7 @@ title: Modern Artists
 </div>
 
 <div class="card">
-  <img src="Banksy.png" alt="Banksy" style="width:100%">
+  <img src="images/Banksy.png" alt="Banksy" style="width:100%">
   <div class="container">
     <h4><b>Banksy</b></h4> 
     <a href="#banksy-heading" class="button">More Info</a>
@@ -64,7 +64,7 @@ title: Modern Artists
 </div>
 
 <div class="card">
-  <img src="Kusama.png" alt="Kusama" style="width:100%">
+  <img src="images/Kusama.png" alt="Kusama" style="width:100%">
   <div class="container">
     <h4><b>Yayoi Kusama</b></h4> 
     <a href="#kusama-heading" class="button">More Info</a>

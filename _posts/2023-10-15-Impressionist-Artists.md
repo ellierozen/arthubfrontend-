@@ -46,7 +46,7 @@ title: Impressionism Artists
 <h2>Impressionism Artists</h2>
 
 <div class="card">
-  <img src="Monet.png" alt="Monet" style="width:100%">
+  <img src="images/Monet.png" alt="Monet" style="width:100%">
   <div class="container">
     <h4><b>Claude Monet</b></h4> 
     <a href="#monet-heading" class="button">More Info</a>
@@ -55,7 +55,7 @@ title: Impressionism Artists
 </div>
 
 <div class="card">
-  <img src="Renoir.png" alt="Renoir" style="width:100%">
+  <img src="images/Renoir.png" alt="Renoir" style="width:100%">
   <div class="container">
     <h4><b>Pierre-Auguste Renoir</b></h4> 
     <a href="#renoir-heading" class="button">More Info</a>
@@ -64,7 +64,7 @@ title: Impressionism Artists
 </div>
 
 <div class="card">
-  <img src="Manet.png" alt="Manet" style="width:100%">
+  <img src="images/Manet.png" alt="Manet" style="width:100%">
   <div class="container">
     <h4><b>Édouard Manet</b></h4> 
     <a href="#manet-heading" class="button">More Info</a>
