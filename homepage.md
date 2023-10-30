@@ -67,13 +67,14 @@
 <body>
     <div id='rectangle2' class='rectangle2'>
         <div class="dropdown">
-            <button class='button' id='arthub' onclick="location.href='homepage.md';">ArtHub</button>
+            <button class='button artists' onclick="location.href='homepage.md';">Artists</button>
             <div class="dropdown-content">
-                <a href="2023-10-15-Impressionist-Artists.md">Impressionist Artists</a>
+                <a href="artist1.md">Artist 1</a>
                 <a href="artist2.md">Artist 2</a>
                 <!-- Add more artist links as needed -->
             </div>
         </div>
+        <button class='button arthub' onclick="location.href='homepage.md';">ArtHub</button>
         <button class='button' id='museums' onclick="location.href='museums.md';">Museums</button>
     </div>
     <div id='findmuseumsnearyou' class='findmuseumsnearyou'>
