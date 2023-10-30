@@ -46,7 +46,7 @@ title: Realism Artists
 <h2>Realism Artists</h2>
 
 <div class="card">
-  <img src="Courbet.png" alt="Courbet" style="width:100%">
+  <img src="images/Courbet.png" alt="Courbet" style="width:100%">
   <div class="container">
     <h4><b>Gustave Courbet</b></h4> 
     <a href="#courbet-heading" class="button">More Info</a>
@@ -55,7 +55,7 @@ title: Realism Artists
 </div>
 
 <div class="card">
-  <img src="Millet.png" alt="Millet" style="width:100%">
+  <img src="images/Millet.png" alt="Millet" style="width:100%">
   <div class="container">
     <h4><b>Jean-Francois Millet</b></h4> 
     <a href="#millet-heading" class="button">More Info</a>
@@ -64,7 +64,7 @@ title: Realism Artists
 </div>
 
 <div class="card">
-  <img src="Bonheur.png" alt="Bonheur" style="width:100%">
+  <img src="images/Bonheur.png" alt="Bonheur" style="width:100%">
   <div class="container">
     <h4><b>Rosa Bonheur</b></h4> 
     <a href="#bonheur-heading" class="button">More Info</a>

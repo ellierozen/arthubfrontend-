@@ -47,7 +47,7 @@ title: Post-Impressionist Artists
 <h2>Post-Impressionism Artists</h2>
 
 <div class="card">
-  <img src="Van-Gogh.png" alt="Van Gogh" style="width:100%">
+  <img src="images/Van-Gogh.png" alt="Van Gogh" style="width:100%">
   <div class="container">
     <h4><b>Vincent Van Gogh</b></h4> 
     <a href="#gogh-heading" class="button">More Info</a>
@@ -56,7 +56,7 @@ title: Post-Impressionist Artists
 </div>
 
 <div class="card">
-  <img src="Gaugin.png" alt="Gaugin" style="width:100%">
+  <img src="images/Gaugin.png" alt="Gaugin" style="width:100%">
   <div class="container">
     <h4><b>Paul Gaugin</b></h4> 
     <a href="#gaugin-heading" class="button">More Info</a>
@@ -65,7 +65,7 @@ title: Post-Impressionist Artists
 </div>
 
 <div class="card">
-  <img src="Rousseau.png" alt="Rousseau" style="width:100%">
+  <img src="images/Rousseau.png" alt="Rousseau" style="width:100%">
   <div class="container">
     <h4><b>Henri Rousseau</b></h4> 
     <a href="#rousseau-heading" class="button">More Info</a>

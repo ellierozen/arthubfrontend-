@@ -46,7 +46,7 @@ title: Renaissance Artists
 <h2>Renaissance Artists</h2>
 
 <div class="card">
-  <img src="Vinci.png" alt="Vinci" style="width:100%">
+  <img src="images/Vinci.png" alt="Vinci" style="width:100%">
   <div class="container">
     <h4><b>Leonardo Da Vinci</b></h4> 
     <a href="#vinci-heading" class="button">More Info</a>
@@ -55,7 +55,7 @@ title: Renaissance Artists
 </div>
 
 <div class="card">
-  <img src="Michelangelo.png" alt="Michelangelo" style="width:100%">
+  <img src="images/Michelangelo.png" alt="Michelangelo" style="width:100%">
   <div class="container">
     <h4><b>Michelangelo Buonarroti</b></h4> 
     <a href="#michelangelo-heading" class="button">More Info</a>
@@ -64,7 +64,7 @@ title: Renaissance Artists
 </div>
 
 <div class="card">
-  <img src="Botticelli.png" alt="Botticelli" style="width:100%">
+  <img src="images/Botticelli.png" alt="Botticelli" style="width:100%">
   <div class="container">
     <h4><b>Sandro Botticelli</b></h4> 
     <a href="#botticelli-heading" class="button">More Info</a>
