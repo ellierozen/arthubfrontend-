@@ -69,7 +69,7 @@
         <div class="dropdown">
             <button class='button artists' onclick="location.href='homepage.md';">Artists</button>
             <div class="dropdown-content">
-                <a href="artist1.md">Artist 1</a>
+                <a href="impressionistartists.md">Impressionist Artists</a>
                 <a href="artist2.md">Artist 2</a>
                 <!-- Add more artist links as needed -->
             </div>
