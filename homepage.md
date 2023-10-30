@@ -74,6 +74,10 @@
                 <a href="impressionistartists.html">Impressionist Artists</a>
                 <a href="moderninsmartists.html">Modernism Artists</a>
                 <a href="popartists.html">Pop Art Artists</a>
+                <a href="postimpressionismartists.html">Post Impressionism Artists</a>
+                <a href="realismartists.html">Realism Artists</a>
+                <a href="renaissanceartists.html">Renaissance Artists</a>
+                <a href="renaissanceartists.html">Romanticism Artists</a>
                 <!-- Add more artist links as needed -->
             </div>
         </div>
