@@ -89,8 +89,8 @@
         </div>
         <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>
         <button class='button' id='museums' onclick="location.href='//ellierozen.github.io/arthubfrontend-/geocoding';">Museums</button>
-        <h1>Explore Art</h1>
     </div>
+    <h1>Explore Art</h1>
 
     <!-- Add other sections and content for your homepage here -->
 
