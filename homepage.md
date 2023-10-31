@@ -75,8 +75,8 @@
         margin: 20px 0;
         }
         .image-container img {
-            max-width: 400px;
-            max-height: 400px;
+            max-width: 600px;
+            max-height: 600px;
             margin: 10px;
         }
     </style>
