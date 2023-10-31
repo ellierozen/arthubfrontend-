@@ -103,10 +103,10 @@
         </div>
             <h1>Explore Art</h1>
             <div class="image-container">
-            <img src="Museum-1.png" alt="Image 1 Description">
-            <img src="Museum-2.png" alt="Image 2 Description">
-            <img src="Museum-3.png" alt="Image 3 Description">
-            <img src="Museum-4.png" alt="Image 4 Description">
+            <img src="images/Museum-1.png" alt="Image 1 Description">
+            <img src="images/Museum-2.png" alt="Image 2 Description">
+            <img src="images/Museum-3.png" alt="Image 3 Description">
+            <img src="images/Museum-4.png" alt="Image 4 Description">
         </div>
 
     <!-- Add other sections and content for your homepage here -->
