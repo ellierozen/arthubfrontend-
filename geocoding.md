@@ -4,6 +4,21 @@
         body {
             background-color: #E7D8ED;
         }
+        .button {
+            background-color: #ca552e;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            text-decoration: none;
+            cursor: pointer;
+            display: inline-block;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .button:hover {
+            background-color: #682222;
+        }
         .button.arthub {
             background-color: #fff;
             color: #000;
