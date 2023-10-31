@@ -82,7 +82,7 @@
             </div>
         </div>
         <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>
-        <button class='button' id='museums' onclick="location.href='museums.md';">Museums</button>
+        <button class='button' id='museums' onclick="location.href='//ellierozen.github.io/arthubfrontend-/geocoding';">Museums</button>
     </div>
     <div id='findmuseumsnearyou' class='findmuseumsnearyou'>
         Find Museums Near You
