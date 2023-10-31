@@ -101,12 +101,18 @@
         <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>
         <button class='button' id='museums' onclick="location.href='//ellierozen.github.io/arthubfrontend-/geocoding';">Museums</button>
         </div>
-            <h1>Explore Art</h1>
+        <h1>Explore Art</h1>
             <div class="image-container">
-            <img src="images/Museum-1.png" alt="Image 1 Description">
-            <img src="images/Museum-2.png" alt="Image 2 Description">
-            <img src="images/Museum-3.png" alt="Image 3 Description">
-            <img src="images/Museum-4.png" alt="Image 4 Description">
+                <table>
+            <tr>
+                <td><img src="images/Museum-1.png" alt="Image 1 Description"></td>
+                <td><img src="images/Museum-2.png" alt="Image 2 Description"></td>
+            </tr>
+            <tr>
+                <td><img src="images/Museum-3.png" alt="Image 3 Description"></td>
+                <td><img src="images/Museum-4.png" alt="Image 4 Description"></td>
+            </tr>
+        </table>
         </div>
 
     <!-- Add other sections and content for your homepage here -->
