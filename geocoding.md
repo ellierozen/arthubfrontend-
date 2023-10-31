@@ -23,6 +23,12 @@
             background-color: #fff;
             color: #000;
         }
+        h1 {
+            font-size: 40px; /* Change the font size */
+            color: #333; /* Change the text color */
+            text-align: center; /* Change the alignment */
+            margin-top: 20px; /* Change the top margin */
+        }
     </style>
 </head>
 
@@ -34,6 +40,7 @@
     <button class= 'button arthub' onclick="searchMuseums()">Search</button>
     <div id="results"></div>
     <script>
+        const host = "https://";
         function searchMuseums() {
             const zipcode = document.getElementById('zipcode').value;
             fetch(`/get_art_museum_data?zipcode=${zipcode}`)
