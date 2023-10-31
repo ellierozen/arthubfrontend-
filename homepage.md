@@ -68,6 +68,17 @@
             text-align: center; /* Change the alignment */
             margin-top: 20px; /* Change the top margin */
         }
+        .image-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 200px;
+            max-height: 200px;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
@@ -89,8 +100,14 @@
         </div>
         <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>
         <button class='button' id='museums' onclick="location.href='//ellierozen.github.io/arthubfrontend-/geocoding';">Museums</button>
-    </div>
-    <h1>Explore Art</h1>
+        </div>
+            <h1>Explore Art</h1>
+            <div class="image-container">
+            <img src="Museum-1.png" alt="Image 1 Description">
+            <img src="Museum-2.png" alt="Image 2 Description">
+            <img src="Museum-3.png" alt="Image 3 Description">
+            <img src="Museum-4.png" alt="Image 4 Description">
+        </div>
 
     <!-- Add other sections and content for your homepage here -->
 
