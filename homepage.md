@@ -62,9 +62,17 @@
         .dropdown:hover .dropdown-content {
             display: block;
         }
+        h1 {
+            font-size: 40px; /* Change the font size */
+            color: #333; /* Change the text color */
+            text-align: center; /* Change the alignment */
+            margin-top: 20px; /* Change the top margin */
+        }
     </style>
 </head>
 <body>
+
+<h1>Explore Art</h1>
     <div id='rectangle2' class='rectangle2'>
         <div class="dropdown">
             <button class='button artists' onclick="location.href='homepage.md';">Artists</button>
@@ -83,9 +91,6 @@
         </div>
         <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>
         <button class='button' id='museums' onclick="location.href='//ellierozen.github.io/arthubfrontend-/geocoding';">Museums</button>
-    </div>
-    <div id='findmuseumsnearyou' class='findmuseumsnearyou'>
-        Find Museums Near You
     </div>
 
     <!-- Add other sections and content for your homepage here -->
