@@ -31,7 +31,7 @@
 <body>
     <h1>Find Nearby Museums</h1>
     <input type="text" id="zipcode" placeholder="Enter Zipcode">
-    <button onclick="searchMuseums()">Search</button>
+    <button class= 'button arthub' onclick="searchMuseums()">Search</button>
     <div id="results"></div>
     <script>
         function searchMuseums() {
