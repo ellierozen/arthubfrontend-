@@ -97,11 +97,9 @@
                 <a href="romantartists.html">Romanticism Artists</a>
                 <!-- Add more artist links as needed -->
             </div>
-        </div>
-        <div class="dropdown">
             <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>
-             <div class="dropdown-content">
-              <a href="artquiz.html">Art Quiz</a>
+            <div class="dropdown-content">
+                <a href="artquiz.html">Art Quiz</a>            
         </div>
         <button class='button' id='museums' onclick="location.href='//ellierozen.github.io/arthubfrontend-/geocoding';">Museums</button>
         </div>
