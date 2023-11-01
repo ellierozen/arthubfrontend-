@@ -37,7 +37,7 @@
             margin-top: 20px;
         }
         #searchBar {
-            text-align: center;
+            text-align: left;
             margin-top: 20px;
         }
     </style>
