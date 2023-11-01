@@ -72,8 +72,8 @@
                 const museum = document.createElement('div');
                 museum.innerHTML = `<strong>${item.name}</strong><br>
                                     Rating: ${item.rating}<br>
-                                    Address: ${item.vicinity}<br>
-                                    <a href="${item.url}" target="_blank">View on Google Maps</a><br><br>`;
+                                    Address: ${item.formatted_address}<br>
+                                    <a href="${item.opening_now}" target="_blank">View on Google Maps</a><br><br>`;
                 resultsDiv.appendChild(museum);
             });
         }
