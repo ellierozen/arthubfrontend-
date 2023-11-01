@@ -100,8 +100,8 @@
         </div>
         <div class="dropdown">
             <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>>
-            <div class="dropdown-content" id="arthubDropdown">
-                <a href="artquiz.html">Main Page</a>
+            <div class="dropdown-content">
+                <a href="artquiz.html">Art Quiz</a>
             </div>
         </div>
         <button class='button' id='museums' onclick="location.href='//ellierozen.github.io/arthubfrontend-/geocoding';">Museums</button>
