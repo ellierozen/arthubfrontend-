@@ -84,7 +84,7 @@
 <body>
     <div id='rectangle2' class='rectangle2'>
         <div class="dropdown">
-            <button class='button artists' onclick="location.href='homepage.md';">Artists</button>
+            <button class='button artists' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';';">Artists</button>
             <div class="dropdown-content">
                 <a href="baroqueartists.html">Baroque Artists </a>
                 <a href="cubismartists.html">Cubism Artists</a>
@@ -98,10 +98,14 @@
                 <!-- Add more artist links as needed -->
             </div>
         </div>
-        <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>
+        <div class="dropdown">
+            <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>
+             <div class="dropdown-content">
+              <a href="artquiz.html">Art Quiz</a>
+        </div>
         <button class='button' id='museums' onclick="location.href='//ellierozen.github.io/arthubfrontend-/geocoding';">Museums</button>
         </div>
-        <h1>Explore Art</h1>
+        <h1>Explore More Art</h1>
             <div class="image-container">
                 <table>
             <tr>
