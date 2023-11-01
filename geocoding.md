@@ -4,13 +4,12 @@
         body {
             background-color: #E7D8ED;
         }
-         .rectangle2 {
+        .rectangle2 {
             background-color: #f3eef4;
             height: 56px;
-            width: fill;
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
         }
         .button {
             background-color: #ca552e;
@@ -20,7 +19,7 @@
             padding: 10px 20px;
             text-decoration: none;
             cursor: pointer;
-            display: inline-block;
+            display: block;
             text-align: center;
             margin-top: 15px;
         }
@@ -32,22 +31,27 @@
             color: #000;
         }
         h1 {
-            font-size: 40px; /* Change the font size */
-            color: #333; /* Change the text color */
-            text-align: center; /* Change the alignment */
-            margin-top: 20px; /* Change the top margin */
+            font-size: 40px;
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+        #searchBar {
+            text-align: center;
+            margin-top: 20px;
         }
     </style>
 </head>
 
-<button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">Home</button>
-
 <body>
-    <input type="text" id="zipcode" placeholder="Enter Zipcode">
     <div id='rectangle2' class='rectangle2'>
-       <h1>Find Nearby Museums</h1>
-     </div>
-    <button class= 'button arthub' onclick="searchMuseums()">Search</button>
+        <h1>Find Nearby Museums</h1>
+    </div>
+    <div id="searchBar">
+        <input type="text" id="zipcode" placeholder="Enter Zipcode">
+        <button class='button arthub' onclick="searchMuseums()">Search</button>
+    </div>
+    <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">Home</button>
     <div id="results"></div>
     <script>
         const host = "https://";
@@ -76,6 +80,3 @@
     </script>
 </body>
 </html>
-
-
-
