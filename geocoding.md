@@ -40,7 +40,7 @@
     </style>
 </head>
 
-<button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>
+<button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">Home</button>
 
 <body>
     <input type="text" id="zipcode" placeholder="Enter Zipcode">
