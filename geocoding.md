@@ -4,6 +4,14 @@
         body {
             background-color: #E7D8ED;
         }
+         .rectangle2 {
+            background-color: #f3eef4;
+            height: 56px;
+            width: fill;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
         .button {
             background-color: #ca552e;
             color: #fff;
@@ -35,8 +43,10 @@
 <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>
 
 <body>
-    <h1>Find Nearby Museums</h1>
     <input type="text" id="zipcode" placeholder="Enter Zipcode">
+    <div id='rectangle2' class='rectangle2'>
+       <h1>Find Nearby Museums</h1>
+     </div>
     <button class= 'button arthub' onclick="searchMuseums()">Search</button>
     <div id="results"></div>
     <script>
