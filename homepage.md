@@ -99,7 +99,7 @@
             </div>
         </div>
         <div class="dropdown">
-            <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>>
+            <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">ArtHub</button>
             <div class="dropdown-content">
                 <a href="artquiz.html">Art Quiz</a>
             </div>
