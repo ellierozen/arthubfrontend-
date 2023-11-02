@@ -10,7 +10,6 @@
             height: 56px;
             display: flex;
             align-items: center;
-            justify-content: space-between; /* Updated to space-between */
             padding: 0 20px; /* Added padding */
         }
         .button {
