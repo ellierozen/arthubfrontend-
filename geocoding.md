@@ -80,8 +80,9 @@
             resultsDiv.innerHTML = ''; // Clear previous results
             data.forEach(item => {
                 const museum = document.createElement('div');
+                const googleMapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.vicinity)}`;
                 museum.innerHTML = `<strong>${item.name}</strong><br>
-                                    Address: ${item.vicinity}<br><br>`;
+                                    Address: <a href="${googleMapsLink}" target="_blank">${item.vicinity} (View on Google Maps)</a><br><br>`;
                 resultsDiv.appendChild(museum);
             });
         }
