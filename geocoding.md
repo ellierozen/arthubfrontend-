@@ -81,8 +81,7 @@
             data.forEach(item => {
             const museum = document.createElement('div');
             museum.innerHTML = `<strong>${item.name}</strong><br>
-                                Address: ${item.vicinity}<br>
-                                <a href="${item.opening_now}" target="_blank">View on Google Maps</a><br><br>`;
+                                Address: ${item.vicinity}<br><br>`;
             resultsDiv.appendChild(museum);
         });
             } else {
