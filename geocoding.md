@@ -54,7 +54,8 @@
     <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">Home</button>
     <div id="results"></div>
     <script>
-        const host = "https:///flask.nighthawkcodingsociety.com/api/geocoding";
+        const host = "https:///flask.nighthawkcodingsociety.com";
+        const zip_search = host + "/api/geocoding";
         function searchMuseums() {
             const zipcode = document.getElementById('zipcode').value;
             const search_options = {
@@ -68,7 +69,7 @@
                 },
                 body: JSON.stringify(""), // convert to JSON
             };
-            fetch(`/get_art_museum_data?zipcode=${zipcode}`)
+            fetch(zip_search)
                 .then(response => response.json())
                 .then(data => {
                     // Display data in 'results' div
