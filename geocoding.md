@@ -56,27 +56,28 @@
     <script>
         const host = "https:///flask.nighthawkcodingsociety.com";
         const zip_search = host + "/api/geocoding";
-        function searchMuseums() {
-            const zipcode = document.getElementById('zipcode').value;
-            const search_options = {
-                method: 'GET', // *GET, POST, PUT, DELETE, etc.
-                mode: 'cors', // no-cors, *cors, same-origin
-                cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
-                credentials: 'omit', // include, *same-origin, omit
-                headers: {
+        const options = {
+            method: 'GET', // *GET, POST, PUT, DELETE, etc.
+            mode: 'cors', // no-cors, *cors, same-origin
+            cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
+            credentials: 'omit', // include, *same-origin, omit
+            headers: {
                 'Content-Type': 'application/json'
                 // 'Content-Type': 'application/x-www-form-urlencoded',
-                },
-                body: JSON.stringify(""), // convert to JSON
+            },
             };
-            fetch(zip_search)
+        // prepare fetch PUT options, clones with JS Spread Operator (...)
+        const put_options = {...options, method: 'PUT'}; // clones and replaces method
+        function searchMuseums() {
+            const zipcode = document.getElementById('zipcode').value;
+            };
+            fetch(zip_search, options)
                 .then(response => response.json())
                 .then(data => {
                     // Display data in 'results' div
                     displayResults(data);
                 })
                 .catch(error => console.error('Error:', error));
-        }
         function displayResults(data) {
             const display_options = {
                 method: 'GET', // *GET, POST, PUT, DELETE, etc.
