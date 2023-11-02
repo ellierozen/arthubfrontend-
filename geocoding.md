@@ -69,7 +69,8 @@
         // prepare fetch PUT options, clones with JS Spread Operator (...)
         const put_options = {...options, method: 'PUT'}; // clones and replaces method
         function searchMuseums() {
-            const zipcode = document.getElementById('zipcode').value;
+            var zipcode = document.getElementByID('zipcode').value;
+            let data = {zipcocde : zipcode}
             };
             fetch(zip_search, options)
                 .then(response => response.json())
