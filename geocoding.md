@@ -55,7 +55,7 @@
     <div id="results"></div>
     <script>
         const host = "https:///art.stu.nighthawkcodingsociety";
-        const zip_search = host + "/api/geocoding";
+        const zip_search = host + "/api/geocoding/?zipcode";
         const options = {
             method: 'GET', // *GET, POST, PUT, DELETE, etc.
             mode: 'cors', // no-cors, *cors, same-origin
