@@ -33,7 +33,7 @@
             color: #000;
             padding: 10px 20px;
         }
-        h1 {
+        .rectangle2 h1 {
             font-size: 40px;
             color: #333;
             text-align: center;
