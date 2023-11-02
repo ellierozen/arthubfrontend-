@@ -1,15 +1,18 @@
+<!DOCTYPE html>
 <html>
 <head>
     <style>
         body {
             background-color: #E7D8ED;
+            margin: 0;
         }
         .rectangle2 {
             background-color: #f3eef4;
             height: 56px;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between; /* Updated to space-between */
+            padding: 0 20px; /* Added padding */
         }
         .button {
             background-color: #ca552e;
@@ -40,18 +43,20 @@
             text-align: left;
             margin-top: 20px;
         }
+        #results {
+            font-size: 18px; /* Increased font size for the results */
+        }
     </style>
 </head>
-
 <body>
     <div id='rectangle2' class='rectangle2'>
+        <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">Home</button>
         <h1>Find Nearby Museums</h1>
     </div>
     <div id="searchBar">
         <input type="text" id="zipcode" placeholder="Enter Zipcode">
         <button class='button arthub' onclick="searchMuseums()">Search</button>
     </div>
-    <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">Home</button>
     <div id="results"></div>
     <script>
         const host = "https://arthub.stu.nighthawkcodingsociety.com";
