@@ -70,27 +70,20 @@
             fetch(zip_search + zipcode, options)
                 .then(response => response.json())
                 .then(data => {
-                    displayResults(data);
+                    displayResults(data.art_museums); // Pass the art_museums array to display
                 })
                 .catch(error => console.error('Error:', error));
         }
         function displayResults(data) {
             const resultsDiv = document.getElementById('results');
             resultsDiv.innerHTML = ''; // Clear previous results
-            if (Array.isArray(data)) {
             data.forEach(item => {
-            const museum = document.createElement('div');
-            museum.innerHTML = `<strong>${item.name}</strong><br>
-                                Address: ${item.vicinity}<br><br>`;
-            resultsDiv.appendChild(museum);
-        });
-            } else {
-                // If data is not an array, handle it accordingly (e.g., log an error, display a message, etc.)
-                console.error('Data is not an array:', data);
-                // Optionally, display an error message to the user
-                resultsDiv.innerHTML = 'Error: Data format not as expected.';
-            }
-}
+                const museum = document.createElement('div');
+                museum.innerHTML = `<strong>${item.name}</strong><br>
+                                    Address: ${item.vicinity}<br><br>`;
+                resultsDiv.appendChild(museum);
+            });
+        }
     </script>
 </body>
 </html>
