@@ -22,7 +22,7 @@
             text-decoration: none;
             cursor: pointer;
             display: block;
-            text-align: center;
+            text-align: left;
             margin-top: 15px;
         }
         .button:hover {
