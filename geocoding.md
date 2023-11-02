@@ -55,7 +55,7 @@
     <div id="results"></div>
     <script>
         const host = "https://arthub.stu.nighthawkcodingsociety";
-        const zip_search = host + "/api/geocoding/?zipcode";
+        const zip_search = host + "/api/geocoding/?zipcode=";
         const options = {
             method: 'GET', // *GET, POST, PUT, DELETE, etc.
             mode: 'cors', // no-cors, *cors, same-origin
@@ -71,7 +71,7 @@
         function searchMuseums() {
             const zipcode = document.getElementById('zipcode').value;
             };
-            fetch(zip_search, options)
+            fetch(zip_search + zipcode, options)
                 .then(response => response.json())
                 .then(data => {
                     // Display data in 'results' div
