@@ -54,49 +54,34 @@
     <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">Home</button>
     <div id="results"></div>
     <script>
-        fetch ("https://arthub.stu.nighthawkcodingsociety");
+        const host = "https://arthub.stu.nighthawkcodingsociety.com";
         const zip_search = host + "/api/geocoding/?zipcode=";
         const options = {
-            method: 'GET', // *GET, POST, PUT, DELETE, etc.
-            mode: 'cors', // no-cors, *cors, same-origin
-            cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
-            credentials: 'omit', // include, *same-origin, omit
+            method: 'GET',
+            mode: 'cors',
+            cache: 'default',
+            credentials: 'omit',
             headers: {
                 'Content-Type': 'application/json'
-                // 'Content-Type': 'application/x-www-form-urlencoded',
-            },
-            };
-        // prepare fetch PUT options, clones with JS Spread Operator (...)
-        const put_options = {...options, method: 'PUT'}; // clones and replaces method
+            }
+        };
         function searchMuseums() {
             const zipcode = document.getElementById('zipcode').value;
-            };
             fetch(zip_search + zipcode, options)
                 .then(response => response.json())
                 .then(data => {
-                    // Display data in 'results' div
                     displayResults(data);
                 })
                 .catch(error => console.error('Error:', error));
+        }
         function displayResults(data) {
-            const display_options = {
-                method: 'GET', // *GET, POST, PUT, DELETE, etc.
-                mode: 'cors', // no-cors, *cors, same-origin
-                cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
-                credentials: 'omit', // include, *same-origin, omit
-                headers: {
-                'Content-Type': 'application/json'
-                // 'Content-Type': 'application/x-www-form-urlencoded',
-                },
-                body: JSON.stringify(""), // convert to JSON   
-            }
             const resultsDiv = document.getElementById('results');
             resultsDiv.innerHTML = ''; // Clear previous results
             data.forEach(item => {
                 const museum = document.createElement('div');
                 museum.innerHTML = `<strong>${item.name}</strong><br>
-                                    Rating: ${item.vincinity}<br>
-                                    Address: ${item.rating}<br>
+                                    Rating: ${item.rating}<br>
+                                    Address: ${item.vicinity}<br>
                                     <a href="${item.opening_now}" target="_blank">View on Google Maps</a><br><br>`;
                 resultsDiv.appendChild(museum);
             });
