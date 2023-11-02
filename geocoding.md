@@ -54,7 +54,7 @@
     <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">Home</button>
     <div id="results"></div>
     <script>
-        const host = "https:///flask.nighthawkcodingsociety.com";
+        const host = "https:///art.stu.nighthawkcodingsociety.com";
         const zip_search = host + "/api/geocoding";
         const options = {
             method: 'GET', // *GET, POST, PUT, DELETE, etc.
