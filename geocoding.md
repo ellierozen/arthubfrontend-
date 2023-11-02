@@ -54,7 +54,7 @@
     <button class='button arthub' onclick="location.href='//ellierozen.github.io/arthubfrontend-/homepage';">Home</button>
     <div id="results"></div>
     <script>
-        const host = "https:///art.stu.nighthawkcodingsociety.com";
+        const host = "https:///art.stu.nighthawkcodingsociety";
         const zip_search = host + "/api/geocoding";
         const options = {
             method: 'GET', // *GET, POST, PUT, DELETE, etc.
@@ -69,8 +69,7 @@
         // prepare fetch PUT options, clones with JS Spread Operator (...)
         const put_options = {...options, method: 'PUT'}; // clones and replaces method
         function searchMuseums() {
-            var zipcode = document.getElementByID('zipcode').value;
-            let data = {zipcocde : zipcode}
+            const zipcode = document.getElementById('zipcode').value;
             };
             fetch(zip_search, options)
                 .then(response => response.json())
