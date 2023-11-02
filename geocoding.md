@@ -95,8 +95,8 @@
             data.forEach(item => {
                 const museum = document.createElement('div');
                 museum.innerHTML = `<strong>${item.name}</strong><br>
-                                    Rating: ${item.rating}<br>
-                                    Address: ${item.formatted_address}<br>
+                                    Rating: ${item.vincinity}<br>
+                                    Address: ${item.rating}<br>
                                     <a href="${item.opening_now}" target="_blank">View on Google Maps</a><br><br>`;
                 resultsDiv.appendChild(museum);
             });
