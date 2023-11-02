@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <style>
@@ -32,6 +31,7 @@
         .button.arthub {
             background-color: #fff;
             color: #000;
+            padding: 10px 20px;
         }
         h1 {
             font-size: 40px;
@@ -39,12 +39,8 @@
             text-align: center;
             margin-top: 20px;
         }
-        #searchBar {
-            text-align: left;
-            margin-top: 20px;
-        }
         #results {
-            font-size: 18px; /* Increased font size for the results */
+            font-size: 20px; /* Increased font size for the results */
         }
     </style>
 </head>
