@@ -32,7 +32,7 @@
             color: #000;
             padding: 10px 20px;
         }
-        .rectangle2 h1 {
+        h1 {
             font-size: 40px;
             color: #333;
             text-align: center;
@@ -54,7 +54,8 @@
     </div>
     <div id="results"></div>
     <script>
-        const host = "https://arthub.stu.nighthawkcodingsociety.com";
+        //const host = "https://arthub.stu.nighthawkcodingsociety.com";
+        const host = "https://localhost:8794";
         const zip_search = host + "/api/geocoding/?zipcode=";
         const options = {
             method: 'GET',
