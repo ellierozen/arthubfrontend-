@@ -37,7 +37,7 @@
             color: #333;
             text-align: center;
             flex-grow: 1;
-            margin-top: 0;
+            margin-top: 20px;
         }
         #results {
             font-size: 20px; /* Increased font size for the results */
