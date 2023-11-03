@@ -59,7 +59,7 @@
     <div id="results"></div>
     <script>
         const host = "https://arthub.stu.nighthawkcodingsociety.com";
-        //const host = "https://localhost:8794";
+        //const host = "https://localhost:8974";
         const zip_search = host + "/api/geocoding/?zipcode=";
         const options = {
             method: 'GET',
