@@ -36,7 +36,7 @@
             font-size: 40px;
             color: #333;
             text-align: center;
-            margin-top: 20px;
+            margin-top: 0;
         }
         #results {
             font-size: 20px; /* Increased font size for the results */
