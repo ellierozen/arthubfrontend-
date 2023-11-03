@@ -39,6 +39,9 @@
             flex-grow: 1;
             margin-top: 20px;
         }
+         #searchBar {
+            margin-top: 20px; /* Adjust the margin here */
+        }
         #results {
             font-size: 20px; /* Increased font size for the results */
         }
