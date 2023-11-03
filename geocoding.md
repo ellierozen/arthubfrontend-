@@ -36,6 +36,7 @@
             font-size: 40px;
             color: #333;
             text-align: center;
+            flex-grow: 1;
             margin-top: 0;
         }
         #results {
