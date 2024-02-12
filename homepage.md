@@ -16,7 +16,7 @@
         .button {
             color: #000000;
             font-size: 30px;
-            font-family: Kaisei Tokumin;
+            font-family: Roboto;
             line-height: auto;
             border-style: hidden;
             outline: none;
